@@ -7,6 +7,7 @@ import java.io.IOException;
 
 public class Json {
 
+    //creates Jackson's main tool 
     private static ObjectMapper myObjectMapper = defaultObjectMapper();
 
     public static ObjectMapper defaultObjectMapper() {
